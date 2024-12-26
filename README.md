@@ -21,3 +21,8 @@ const displayMediaOptions = {
 };
 navigator.mediaDevices.getDisplayMedia(displayMediaOptions)
 ```
+
+
+# Screen recording webApp
+
+- I have created a simple web app that captures the screen contents using the WebRTC API.

@@ -1,38 +1,47 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  left: 0;
+  right: 0;
+}
+header h1 {
+  align-items: center;
+  text-align: center;
+}
+section {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flow-root;
+  overflow: auto;
+  height: auto;
+}
+section .stop_screen {
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+section .stop_screen:hover {
+  background-color: brown;
+}
 
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #f2f2f2;
-    left: 0;
-    right: 0;
-}
-header h1{
-    align-items: center;
-    text-align: center;
-}
-section{
-    margin-top: 10%;
-    display:flex;
-    justify-content: space-around;
-}
-section .stop_screen{
-    background-color: red;
-    border: 1px solid red;
-    border-radius: .5rem;
-    color: white;
-    font-weight: 700;
-}
-section .stop_screen:hover{
-    background-color: brown;
+section .record_screen {
+  background-color: green;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+  cursor: pointer;
 }
 
-section .record_screen{
-    background-color: green;
-    border: none;
-    border-radius: .5rem;
-    color: white;
-    font-weight: 700;
+section .record_screen:hover {
+  background-color: aquamarine;
 }
 footer {
   position: fixed;
@@ -40,12 +49,11 @@ footer {
   left: 0;
   right: 0;
   width: 100%;
-  background-color:black;
+  background-color: black;
   color: white;
- 
 }
 
-footer h3{
-    align-items: center;
-    text-align: center;
+footer h3 {
+  align-items: center;
+  text-align: center;
 }

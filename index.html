@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/index.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <h1>Screen.io</h1>
     </header>
     <section>
-        <button  onclick="recordHandle()"  class="record_screen" type="button" >Record Screen</button>
-        <br/>
-        <br/>
-        <button type="button" class="stop_screen">Stop Recording</button>
+        <button id="start" class="record_screen" type="button">Record Screen</button>
+        <br />
+        <br />
+        <button id="stop" type="button" class="stop_screen">Stop Recording</button>
+        <br />
+        <br />
+        <video id="video" width="50%" height="50%" controls></video>
     </section>
 
     <footer>
-       <h3>Copy Right @Shashikant</h3> 
+        <h3>Copy Right @Shashikant</h3>
     </footer>
     <script src="/js/index.js"></script>
 </body>
+
 </html>
